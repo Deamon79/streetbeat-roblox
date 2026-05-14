@@ -4,6 +4,7 @@ _archive/
 _build/
 email-*.md
 encrypt.sh
+gate-template.html
 DEV_README.md
 images/_originals/
 

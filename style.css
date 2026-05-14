@@ -411,6 +411,50 @@ img { max-width: 100%; height: auto; display: block; }
     .usecase-num { text-align: left; font-size: 40px; }
 }
 
+/* ========== Concern blocks (anticipated objections) ========== */
+.concern {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 22px;
+    padding: 28px 28px;
+    background: var(--sb-card);
+    border-radius: 12px;
+    border-left: 3px solid var(--sb-primary);
+    margin: 16px 0;
+    align-items: start;
+}
+.concern-num {
+    font-family: var(--font-body);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--sb-primary);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    opacity: 0.85;
+}
+.concern-body p:last-child { margin-bottom: 0; }
+.concern-question {
+    color: var(--sb-text-muted);
+    font-style: italic;
+    font-size: 15.5px;
+    line-height: 1.55;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    border-left: 2px solid rgba(78, 81, 87, 0.5);
+}
+.concern-body > p {
+    color: var(--sb-text-soft);
+    font-size: 15.5px;
+    line-height: 1.6;
+}
+.concern-body ul.clean { margin-top: 8px; margin-bottom: 14px; }
+.concern-body ul.clean li { font-size: 15px; }
+@media (max-width: 600px) {
+    .concern { grid-template-columns: 1fr; gap: 6px; padding: 22px 20px; }
+    .concern-num { text-align: left; font-size: 28px; }
+}
+
 /* ========== Ask numbering ========== */
 .ask-num {
     font-family: var(--font-body);

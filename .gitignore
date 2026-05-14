@@ -1,0 +1,12 @@
+# Private / local-only files (NEVER commit)
+src/
+_archive/
+_build/
+email-*.md
+encrypt.sh
+DEV_README.md
+images/_originals/
+
+# OS
+.DS_Store
+Thumbs.db
